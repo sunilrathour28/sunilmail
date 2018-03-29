@@ -1,0 +1,35 @@
+header{
+	background-color: #2947b5;
+	height: 150px; 
+}
+.img #logoimg{
+	width: 70%;
+	height: 80px;
+	transform: translateY(10px);
+}
+.signup_btn #show{
+	background-color: #36b5a8;
+	float: right;
+	transform: translateY(-50%);
+}
+.backimg{
+	background: url('../img/m.jpg');
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+	position: relative;
+}
+.item img{
+	width: 100%;
+	height:450px;
+	transform: translateY(50px);
+}
+@media only screen and(max-width: 768px){
+	.item img{
+		width: 25px;
+		height: 200px;
+	}
+}
+.loginContainer{
+	transform: translateY(50px);
+}
