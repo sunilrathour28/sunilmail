@@ -15,10 +15,10 @@
       <div class="row">
            <div class="col-md-12 col-sm-12">
                <div class="img">
-                   <img src="img/logo2.png" class="img-responsive" id="logoimg">
+                   <img src="images/logo2.png" class="img-responsive" id="logoimg">
                </div>
                     <div class="signup_btn">
-                      <button id="show">SIGN_UP</button>
+                      <!-- <button id="show"> --><span class="btn btn-link" id="signUp">SIGN UP</span><!-- </button> -->
                             <a href="#" class="account"></a>
                     </div>
            </div>
@@ -29,7 +29,7 @@
     <div class="row">
       <div class="col-md-6 col-sm-4">
       <div class="item">
-      <img src="img/s3.jpg" class="img-responsive" id="logoimg">
+      <img src="images/s3.jpg" class="img-responsive" id="logoimg">
     </div>
     </div>
     <div class="col-md-6 col-sm-8">
@@ -159,7 +159,7 @@
                     <input type="password" id="pas1" required class="form-control" name="password" placeholder="Enter password">
                 </div>
                 <button type="button" id="login1" name="login1" class="btn btn-success">Login</button>
-                <span class="btn btn-link" id="signUp">SIGN UP</span>
+                <!-- <span class="btn btn-link" id="signUp">SIGN UP</span> -->
             </form>
             </div>
             </div>
